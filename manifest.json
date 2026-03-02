@@ -1,8 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "NHK Radio Player Layout",
+  "name": "NHKらじるらじるを広げるぞ",
   "version": "1.0.0",
-  "description": "NHKラジオプレーヤーのレイアウトを調整",
+  "description": "NHKらじるらじるのプレーヤーが小さいので、広げて曲リストを見やすくするぞ",
+  "icons": {
+    "16": "assets/nhk-16.png",
+    "32": "assets/nhk-32.png",
+    "48": "assets/nhk-48.png",
+    "128": "assets/nhk-128.png"
+  },
   "content_scripts": [{
     "matches": ["https://www.nhk.or.jp/radio/player*"],
     "js": ["content.js"],
